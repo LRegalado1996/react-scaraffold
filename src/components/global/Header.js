@@ -13,8 +13,8 @@ class Header extends Component {
             </Link>
           </li>
           <li>
-            <Link to='/librery' >
-              librery
+            <Link to='/getLibrery' >
+              Get librery
             </Link>
           </li>
         </ul>

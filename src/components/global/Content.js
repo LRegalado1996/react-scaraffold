@@ -1,6 +1,12 @@
 //dependences
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import { Provider } from 'react-redux';
+
+//store
+import configureStore from './configureStore';
+
+let store = configureStore();
 
 class Content extends Component {
   static propTypes = ({
@@ -9,11 +15,12 @@ class Content extends Component {
 
   render() {
     const { body } = this.props;
-    // console.log(PropTypes);
-
+    
     return (
       <div className="Content">
-        {body}
+        <Provider store={store}>
+          {body}
+        </Provider>
       </div>
     ); //end return
   } //end Render
