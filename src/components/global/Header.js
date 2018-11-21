@@ -1,5 +1,6 @@
 //dependences
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 class Header extends Component {
   render() {
@@ -7,13 +8,14 @@ class Header extends Component {
       <header className="Header">
         <ul>
           <li>
-            menu 1
+            <Link to='/' >
+              Home
+            </Link>
           </li>
           <li>
-            menu 2
-          </li>
-          <li>
-            menu 3
+            <Link to='/librery' >
+              librery
+            </Link>
           </li>
         </ul>
       </header>
