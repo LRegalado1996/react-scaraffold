@@ -1,9 +1,9 @@
 import { combineReducers } from 'redux';
 
-import incrementReducer from './incrementReducer';
 import libreryReducer from './libreryReducer';
+import postLibreryReducer from './libreryPostReducer';
 
 export default combineReducers({
-  counter: incrementReducer,
-  librery: libreryReducer
+  librery: libreryReducer,
+  postLibrery: postLibreryReducer
 });

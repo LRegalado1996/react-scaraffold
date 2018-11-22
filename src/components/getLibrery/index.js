@@ -26,7 +26,7 @@ class Librery extends Component {
     const dataAllBooks = this.props.books.map((book, key) => {
       return (
         <li key={book.id}>
-          <Link to={`/librery/${book.id}`}>
+          <Link to={`/getLibrery/${book.id}`}>
             {book.title}
           </Link>
         </li>

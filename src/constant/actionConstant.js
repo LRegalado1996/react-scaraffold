@@ -1,2 +1,5 @@
+//get librery Action
 export const LIBRARY_LIST_BOOKS = 'LIBRARY_LIST_BOOKS';
 export const LIBRERY_SHOW_SINGLE_BOOK = 'LIBRERY_SHOW_SINGLE_BOOK';
+
+export const LIBRERY_POST_BOOK = 'LIBRERY_POST_BOOK';

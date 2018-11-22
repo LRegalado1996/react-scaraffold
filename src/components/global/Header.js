@@ -17,6 +17,11 @@ class Header extends Component {
               Get librery
             </Link>
           </li>
+          <li>
+            <Link to='/post-librery' >
+              Post librery
+            </Link>
+          </li>
         </ul>
       </header>
     ); //end return
